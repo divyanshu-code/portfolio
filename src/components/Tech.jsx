@@ -8,11 +8,13 @@ import { DiNodejsSmall } from "react-icons/di";
 import { DiMongodb } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import image from '/public/icons8-c++-48.png'
+import sql from '/public/image.png'
 import {motion} from 'framer-motion'
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
 
 const Tech = () => {
 
@@ -146,6 +148,15 @@ const Tech = () => {
              transition={{ duration: 0.5}}
              >
                <TbBrandFramerMotion className='cursor-pointer text-[70px] bg-gradient-to-r from-pink-600 to-blue-600 rounded-full transition-all duration-300 hover:-translate-y-5 sm:text-[90px] md:text-[100px]' title='Framer Motion' />
+             </motion.div>
+
+             <motion.div
+             initial='hidden'
+             whileInView='visible'
+             variants={variants}
+             transition={{ duration: 0.5}}
+             >
+               <img src={sql} title='MySQL' className='cursor-pointer lg:h-25 lg:w-25 h-18 w-18 text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[50px]' alt="error" />
              </motion.div>
 
         </div>

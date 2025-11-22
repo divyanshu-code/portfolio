@@ -49,7 +49,6 @@ const Navbar = () => {
           <BsInstagram />
         </li></a>
 
-
       </ul>
 
       {open ? (
@@ -90,8 +89,6 @@ const Navbar = () => {
             </li></a>
 
           </ul>
-
-
         </div>
       )}
     </nav>

@@ -16,8 +16,6 @@ const Contact = () => {
         <a href="mailto:divyanshubisht5734@gmail.com" className='text-nowrap rounded-lg border border-blue-500 bg-black px-5 py-3 text-lg font-bold text-white shadow-md shadow-blue-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500'> Contact Me</a>
       </div>
 
-     
-
     </div>
   )
 }

@@ -31,7 +31,7 @@ const Middle = () => {
             Let's build something amazing together!
           </p>
 
-          <a href="https://drive.google.com/file/d/1pCFWPyOxgM3dDqDPwiY-u0qhl7gcx0_k/view?usp=drivesdk" alt="error" className='ok rounded-lg text-sm lg:px-10 lg:py-3 px-5 py-3 m-5 top-80 '> Check My Resume</a>
+          <a href="https://drive.google.com/file/d/1ljrl4IJ2ADWylsRW7DFTgp9PZpXi98DJ/view?usp=drivesdk" alt="error" className='ok rounded-lg text-sm lg:px-10 lg:py-3 px-5 py-3 m-5 top-80 '> Check My Resume</a>
         </motion.div>
       </div>
     </div>
